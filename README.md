@@ -21,4 +21,6 @@
     - Once merged, go to your message in `#it-staging` and add a :white_check_mark: emoji to your message.
 3. Move the ticket to `Testing`
     - If the issue is marked as NOK, remove the issue from the testing column and put it back into either `In development` or `To do` depending on whether or not you're going to be working on it right away.
-    - If the issue is marked as OK...
+    - If the issue is marked as OK, go to the PR on Github and merge it to production.
+    - Move the card from `Code Review` to `Done`.
+    - Pat yourself on the back, you're done here :raised_hands:.
