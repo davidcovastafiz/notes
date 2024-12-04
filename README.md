@@ -18,7 +18,7 @@
     - Notify the team on Slack that you're about to merge in the `#it-staging` channel.
     - Merge the branch(es) with e.g. `git merge feature/12345` (As many feature or bugs you need to merge)
     - Push with `git push origin staging`
-    - Push with `git push staging:deploy/staging --force`
+    - Push with `git push origin staging:deploy/staging --force`
     - Once merged, go to your message in `#it-staging` and add a :white_check_mark: emoji to your message.
 3. Move the ticket to `Testing`
     - If the issue is marked as NOK, remove the issue from the testing column and put it back into either `In development` or `To do` depending on whether or not you're going to be working on it right away.
