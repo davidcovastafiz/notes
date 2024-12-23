@@ -36,7 +36,10 @@ on the `stafiz-select` `@change` vue flag where we pass the same ID as `id="expe
 
 The `trigger('filterCustomFieldsTrigger')` signals the `additional-fields-form` component to update.
 
-Now we need to add inside `additional-fields-form`component `<div ref="filterCustomFieldsRef" :id="id"></div>`.
+Now we need to add inside `additional-fields-form`component 
+```html
+`<div ref="filterCustomFieldsRef" :id="id"></div>
+```
 
 this `ref` vue flag is the name of the trigger we passed on the jquery called in `@change`, `filterCustomFieldsRef`.
 
