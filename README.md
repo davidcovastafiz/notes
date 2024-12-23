@@ -15,6 +15,7 @@
     - If your code is approved, you should delete your local staging branch `git branch -D staging`.
     - Fetch changes with `git fetch origin`.
     - Checkout to `staging` with `git checkout staging`.
+    - > `git branch -D staging && git fetch origin && git checkout staging`
     - Notify the team on Slack that you're about to merge in the `#it-staging` channel.
     - Merge the branch(es) with e.g. `git merge feature/12345` (As many feature or bugs you need to merge)
     - Push with `git push origin staging`
