@@ -26,3 +26,25 @@
     - If the issue is marked as OK, go to the PR on Github and merge it to production.
     - Move the card from `Testing` to `Done`.
     - Pat yourself on the back, you're done here :raised_hands:.
+
+
+### Fixing front-end files
+
+There may come a time where you need to work on front-end files and run into conflicts with NPM.
+To fix this make sure when working on files from `resources` than when you make your last commit before sending to `staging` that you run `npm run prod`, this will generate the appropriate minified files for staging/production.
+
+You'll likely run into merge conflicts when attempting to merge to staging. If you do, run `npm run prod` again and then `git add . && git commit` (no `-m`). You'll have a message like this that you need to comment out the hashes # behind Conflicts and each of the conflicting files, like so:
+
+```bash
+Merge branch 'hotfix/12900' into staging
+
+    Conflicts:
+        public/css/dashboard.css
+        public/css/simple.css
+        public/mix-manifest.json
+```
+
+Accept your changes and run `git push` then `git push origin staging:deploy/staging --force`.
+
+That's it!
+
