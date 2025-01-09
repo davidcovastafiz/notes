@@ -12,7 +12,7 @@
 2. Move the ticket to `Code Review`
     - Code review requires the approval of two developers and must be approved by the team lead.
     - If the code doesn't get approved, you should move the card back to either `To do` or `In Development`, depending on whether you're going to work on it afterwards or not.
-    - If your code is approved, you should delete your local staging branch `git branch -D staging`.
+    - If your code is approved, you should delete your local staging branch `git branch -D staging1`.
     - Fetch changes with `git fetch origin`.
     - Checkout to `staging` with `git checkout staging`.
     - > `git branch -D staging1 && git fetch origin && git checkout staging1`
