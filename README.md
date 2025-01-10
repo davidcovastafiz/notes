@@ -12,12 +12,14 @@
 2. Move the ticket to `Code Review`
     - Code review requires the approval of two developers and must be approved by the team lead.
     - If the code doesn't get approved, you should move the card back to either `To do` or `In Development`, depending on whether you're going to work on it afterwards or not.
+    - [!important] Before you start merging, ensure your branch is up to date with `main`, checkout your branch and `git merge main`, resolve the conflicts. If they're front-end issues like .js files, you must run `make npm run prod`, once it finishes, `git add` and `git commit` (no -m), uncomment Conflicts and each of the conflict files, save and exit, push. Double check on github if the branch has conflicts with main, if not you can procede to merging.
     - If your code is approved, you should delete your local staging branch `git branch -D staging1`.
     - Fetch changes with `git fetch origin`.
     - Checkout to `staging` with `git checkout staging`.
     - > `git branch -D staging1 && git fetch origin && git checkout staging1`
     - Notify the team on Slack that you're about to merge in the `#it-staging` channel.
     - Merge the branch(es) with e.g. `git merge feature/12345` (As many feature or bugs you need to merge)
+    - If you run into any merging issues here, odds are the solution is the exact same on the [!important] step, do the same and continue.
     - Push with `git push origin staging1`
     - Push with `git push origin staging1:deploy/staging1 --force`
     - Once merged, go to your message in `#it-staging` and add a :white_check_mark: emoji to your message.
