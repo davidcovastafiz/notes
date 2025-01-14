@@ -1,5 +1,5 @@
 # Modules
-## Modules
+## Modules/Modules
 - 1 Expenses
 - 2 Leaves
 - 3 Billing
@@ -10,7 +10,7 @@
 - 9 Recruitment
 - 10 Assessments
 - 161 Resource requests
-## Scheduling
+## Modules/Scheduling
 - 163 Timeframes to use in the scheduling
 - 14 Screen type to input scheduling
 - 13 Default fraction of days in schedule (future users)
@@ -27,7 +27,7 @@
 - 18 Timesheets background color
 - 25 Manage appetencies of collaborators for the scheduling
 - 224 Hide scheduling calendar on start page for people without rights
-## Timesheets
+## Modules/Timesheets
 - 32 Timesheets input rights
 - 165 Timesheets only allowed on all projects of teams
 - 166 Collaborators in "numbers" (not blocks) can input times on public holidays (otherwise it's blocked)
@@ -48,7 +48,7 @@
 - 48 People with access to projects can see full timesheets of people (/timesheets page with the calendar)
 - 167 People with access to projects can see who is belated in timesheets input (/timeconfirmation page to see who is late)
 - 168 Display all people in the timesheets table (even the ones that do not have to input timesheets). Used to see holidays
-## CRM
+## Modules/CRM
 - 44 Management of opportunities times at project creation
 - 171 Counter for opportunities
 - 172 Quote counter
@@ -64,7 +64,7 @@
 - 127 Link the columns of the pipe to the success chances
 - 205 Opportunity sources
 - 129 Reason of loss
-## Expenses
+## Modules/Expenses
 - 218 Expense policies system
 - 203 Use the "probative value" for expenses. Additional fees to be confirmed with Stafiz
 - 112 Expenses approval is automatically requested after submission
@@ -80,7 +80,7 @@
 - 219 Allow change of expenses validated by probative value (except file) by admins
 - 120 Expenses categories
 - 227 Customized fields
-## Leaves
+## Modules/Leaves
 - 158 Approval settings
 - 157 Leaves can be requested for past dates
 - 159 Hide holidays situation for collaborators (on their holidays page)
@@ -89,7 +89,7 @@
 - 262 Users cannot ask more leaves than their balance
 - 160 Processing of leave requests in the scheduling and timesheets
 - 229 Explanation to show to leave requesters (text, link,...)
-## Resource Requests
+## Modules/Resource Requests
 - 252 Approval settings
 - 176 Positionings
 - 177 Users can express their interest for projects
@@ -100,7 +100,7 @@
 - 22 Add a location to resource requests
 - 178 Scheduling is allowed on resource requests
 # General
-## General
+## General/General
 - 47 Provide users with access to their own individual reports
 - 50 Manage products
 - 52 Documents management (for CRM opportunities and collaborators)
@@ -120,12 +120,12 @@
 - 60 Superuser email
 - 67 Customized guidelines to work with Stafiz, that will be displayed to your collaborators
 - 68 Menu logo
-## Currencies & countries
+## General/Currencies & countries
 - 69 Use multiple currencies & countries
 - 70 Consolidating currency
 - 183 Default track time zone
 - 71 Add country / setup
-## Billing
+## General/Billing
 - 73 Default type of fee
 - 74 It is possible to bill other entities (different from the project client)
 - 185 Bill only approved timesheets
@@ -144,7 +144,7 @@
 - 187 Track whether invoices have been sent to customers
 - 232 Billing emails
 - 190 Automatic reminder
-## Budget
+## General/Budget
 - 88 Update of the purchase order when the budget is changed (if single purchase order)
 - 89 Possibility of assigning a role to a collaborator
 - 106 Block budget change for non-admins
@@ -164,7 +164,7 @@
 - 193 Enable budgets per hour/fraction
 - 233 Enable budgets per units
     > Beta Test
-## Financials
+## General/Financials
 - 90 Do not use any type of financial data in the tool
 - 236 People with access to the project follow-up page can create accounting extracts (revenue report)
 - 98 Recalculation for closed projects (budget & CDR changes)
@@ -188,35 +188,35 @@
 - 196 Display of realization rate for fixed-fee projects
 - 95 Realization rate display
 - 256 Calculation of unbilled WIP
-## Security
+## General/Security
 - 182 Anonymisation time (months) for of departed users & contacts
 - 180 Block login with email and password, only use SSO
 - 243 Disconnect all users once daily
 - 244 Block the use of OCR (expenses, applicant CVs, ...)
 # Company Settings
-## Roles & rights
+## Company Settings/Roles & rights
 - 103 Current roles (rights are modified within the role)
 - 255 Users are limited to their teams in the reports
 - 105 People who can only see their projects can create new ones
 - 107 Filter searches and reports by role groups
-## Teams
+## Company Settings/Teams
 - 100 Current teams
 - 101 Use teams for not billable projects too
 - 102 Use teams for opportunities too
-## Rates
+## Company Settings/Rates
 - 92 Default Average Daily Rate can be modified
 - 260 Default rates currency is always the project one
 - 245 Rates
-## Costs
+## Company Settings/Costs
 - 108 Average daily cost
-## Projects
+## Company Settings/Projects
 - 109 Current project categories
 - 110 Name of project leaders types
 - 46 Use an internal reference for projects
 - 66 Display format for project and opportunity names
 - 179 Only admins can change the status of projects
 - 131 Customized fields for projects
-## Tasks
+## Company Settings/Tasks
 - 173 Use tasks
 - 51 Monitor tasks in projects
 - 246 Linked tasks are automatically updated when a task is
